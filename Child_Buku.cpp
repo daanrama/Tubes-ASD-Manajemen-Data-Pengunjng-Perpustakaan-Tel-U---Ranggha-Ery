@@ -114,7 +114,7 @@ void deleteFirst_c(List_c &LC, address_c &PC){
     //ERY DEFRIYANTO
     PC = first(LC);
     if (first(LC) == NULL){
-        cout<<"Data kosong \n";
+        cout<<"Data kosong Tidak ada \n";
     }
     else if(first(LC) == last(LC)){
         first(LC) = NULL;
